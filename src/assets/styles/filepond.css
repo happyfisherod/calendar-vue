@@ -1,0 +1,30 @@
+.filepond--root,
+.filepond--drop-label.filepond--drop-label label,
+.filepond--file-action-button {
+  cursor: pointer;
+}
+.filepond--drop-label.filepond--drop-label label {
+   color: var(--color-primary);
+}
+@media (min-width: 30em) {
+  .filepond--item {
+    width: calc(50% - 0.5em) !important;
+  }
+}
+@media (min-width: 50em) {
+  .filepond--item {
+    width: calc(25% - 0.5em) !important;
+  }
+}
+.filepond--file-action-button:hover,
+.filepond--file-action-button:focus {
+  box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+}
+.filepond--file-wrapper {
+  background-color: #555;
+}
+[data-filepond-item-state*="error"] .filepond--file-wrapper,
+[data-filepond-item-state*="invalid"] .filepond--file-wrapper {
+  background-color: #c44e47;
+}

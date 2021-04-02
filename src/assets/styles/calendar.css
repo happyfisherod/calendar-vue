@@ -1,0 +1,47 @@
+/* ---Have table row stick to the edge--- */
+.table-calendar thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+/* ---Have table column stick to the edge--- */
+.table-calendar tbody tr td:nth-child(1) {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  background-color: white;
+  text-align: left;
+  font-weight: 600;
+}
+/* ---Header in the first column stick to the left--- */
+.table-calendar thead th:first-child {
+  left: 0;
+  z-index: 1;
+}
+.table-calendar {
+  color: #494949;
+  font-family: Montserrat, sans-serif;
+  font-size: calc(12px + 0.1vw);
+  border-collapse: collapse;
+}
+.table-calendar th {
+  padding: 0.5rem 0.95rem;
+}
+.table-calendar td {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+.table-calendar th,
+.table-calendar td {
+  border: 1px solid #ccc;
+}
+.header-calendar th {
+  color: #fff;
+  background-color: var(--color-header-table);
+}
+.table-calendar tbody tr td:nth-child(1) {
+  min-width: 140px;
+}
+.calendar__price-text {
+  vertical-align: middle;
+}
