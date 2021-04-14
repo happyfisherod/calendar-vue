@@ -171,7 +171,6 @@
                                 <input class="form-control" />
                               </div>
                               <div>
-                                <label class="bold label-form">Total</label>
                                 <input class="form-control wd-100" />
                               </div>
                             </div>
@@ -202,7 +201,6 @@
                                 <input class="form-control" />
                               </div>
                               <div>
-                                <label class="bold label-form">Total</label>
                                 <input class="form-control wd-100" />
                               </div>
                             </div>
@@ -391,7 +389,7 @@ export default {
 .ocup__table th,
 .ocup__table td {
   border-bottom: 1px solid #ccc;
-  padding: 15px;
+  padding: 5px;
 }
 .ocup__label {
   margin-bottom: 5px;
