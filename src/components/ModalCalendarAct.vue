@@ -171,7 +171,7 @@
                                 <input class="form-control" />
                               </div>
                               <div>
-                                <input class="form-control wd-100" />
+                                <input class="form-control wd-100" disabled />
                               </div>
                             </div>
                           </div>
@@ -201,7 +201,7 @@
                                 <input class="form-control" />
                               </div>
                               <div>
-                                <input class="form-control wd-100" />
+                                <input class="form-control wd-100" disabled />
                               </div>
                             </div>
                           </div>
